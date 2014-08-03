@@ -1,0 +1,60 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'browserify--adventure',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose cache add [ 'browserify--adventure', null ]
+5 verbose cache add name=undefined spec="browserify--adventure" args=["browserify--adventure",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'browserify--adventure',
+6 verbose parsed url   path: 'browserify--adventure',
+6 verbose parsed url   href: 'browserify--adventure' }
+7 silly lockFile a11de2ff-browserify-adventure browserify--adventure
+8 verbose lock browserify--adventure /Users/richard/.npm/a11de2ff-browserify-adventure.lock
+9 silly lockFile a11de2ff-browserify-adventure browserify--adventure
+10 silly lockFile a11de2ff-browserify-adventure browserify--adventure
+11 verbose addNamed [ 'browserify--adventure', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 54dfec80-browserify-adventure browserify--adventure@
+14 verbose lock browserify--adventure@ /Users/richard/.npm/54dfec80-browserify-adventure.lock
+15 silly addNameRange { name: 'browserify--adventure', range: '*', hasData: false }
+16 verbose url raw browserify--adventure
+17 verbose url resolving [ 'https://registry.npmjs.org/', './browserify--adventure' ]
+18 verbose url resolved https://registry.npmjs.org/browserify--adventure
+19 info trying registry request attempt 1 at 15:24:00
+20 http GET https://registry.npmjs.org/browserify--adventure
+21 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+22 info trying registry request attempt 2 at 15:25:26
+23 http GET https://registry.npmjs.org/browserify--adventure
+24 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+25 info trying registry request attempt 3 at 15:27:42
+26 http GET https://registry.npmjs.org/browserify--adventure
+27 silly lockFile 54dfec80-browserify-adventure browserify--adventure@
+28 silly lockFile 54dfec80-browserify-adventure browserify--adventure@
+29 error network connect ETIMEDOUT
+29 error network This is most likely not a problem with npm itself
+29 error network and is related to network connectivity.
+29 error network In most cases you are behind a proxy or have bad network settings.
+29 error network
+29 error network If you are behind a proxy, please make sure that the
+29 error network 'proxy' config is set properly.  See: 'npm help config'
+30 error System Darwin 13.2.0
+31 error command "node" "/usr/local/bin/npm" "i" "browserify--adventure" "-g"
+32 error cwd /Users/richard/Github/NodeConf/Browserify
+33 error node -v v0.10.28
+34 error npm -v 1.4.9
+35 error syscall connect
+36 error code ETIMEDOUT
+37 error errno ETIMEDOUT
+38 verbose exit [ 1, true ]

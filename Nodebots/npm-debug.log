@@ -1,0 +1,237 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'i', '-g', 'nodebot-workshop' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose cache add [ 'nodebot-workshop', null ]
+5 verbose cache add name=undefined spec="nodebot-workshop" args=["nodebot-workshop",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'nodebot-workshop',
+6 verbose parsed url   path: 'nodebot-workshop',
+6 verbose parsed url   href: 'nodebot-workshop' }
+7 silly lockFile 86fb150b-nodebot-workshop nodebot-workshop
+8 verbose lock nodebot-workshop /Users/richard/.npm/86fb150b-nodebot-workshop.lock
+9 silly lockFile 86fb150b-nodebot-workshop nodebot-workshop
+10 silly lockFile 86fb150b-nodebot-workshop nodebot-workshop
+11 verbose addNamed [ 'nodebot-workshop', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile d1d656a7-nodebot-workshop nodebot-workshop@
+14 verbose lock nodebot-workshop@ /Users/richard/.npm/d1d656a7-nodebot-workshop.lock
+15 silly addNameRange { name: 'nodebot-workshop', range: '*', hasData: false }
+16 verbose url raw nodebot-workshop
+17 verbose url resolving [ 'https://registry.npmjs.org/', './nodebot-workshop' ]
+18 verbose url resolved https://registry.npmjs.org/nodebot-workshop
+19 info trying registry request attempt 1 at 11:20:18
+20 http GET https://registry.npmjs.org/nodebot-workshop
+21 http 200 https://registry.npmjs.org/nodebot-workshop
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Fri, 04 Jul 2014 18:20:19 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+22 silly registry.get     etag: '"7GMWRR0IXMURZXJLSQ9ASOR6V"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=30',
+22 silly registry.get     'content-length': '22367',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '439',
+22 silly registry.get     'x-served-by': 'cache-lax1434-LAX',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '1',
+22 silly registry.get     'x-timer': 'S1404498019.839092,VS0,VE39',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'nodebot-workshop', range: '*', hasData: true }
+24 silly addNameRange versions [ 'nodebot-workshop',
+24 silly addNameRange   [ '0.9.0',
+24 silly addNameRange     '0.10.0',
+24 silly addNameRange     '0.11.0',
+24 silly addNameRange     '0.11.1',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.0.1',
+24 silly addNameRange     '2.0.0',
+24 silly addNameRange     '2.0.1',
+24 silly addNameRange     '2.0.2',
+24 silly addNameRange     '2.1.0',
+24 silly addNameRange     '2.1.1',
+24 silly addNameRange     '2.2.0' ] ]
+25 verbose addNamed [ 'nodebot-workshop', '2.2.0' ]
+26 verbose addNamed [ '2.2.0', '2.2.0' ]
+27 silly lockFile 5f6dc853-nodebot-workshop-2-2-0 nodebot-workshop@2.2.0
+28 verbose lock nodebot-workshop@2.2.0 /Users/richard/.npm/5f6dc853-nodebot-workshop-2-2-0.lock
+29 silly lockFile 097e870e-kshop-nodebot-workshop-2-2-0-tgz https://registry.npmjs.org/nodebot-workshop/-/nodebot-workshop-2.2.0.tgz
+30 verbose lock https://registry.npmjs.org/nodebot-workshop/-/nodebot-workshop-2.2.0.tgz /Users/richard/.npm/097e870e-kshop-nodebot-workshop-2-2-0-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodebot-workshop/-/nodebot-workshop-2.2.0.tgz',
+31 verbose addRemoteTarball   '13663204196403cf5ea133969502561a6fd23ee7' ]
+32 info retry fetch attempt 1 at 11:20:23
+33 verbose fetch to= /var/folders/tp/hc7l361x5xzdbk2fcgfsxspm0000gn/T/npm-4689-n9FRxiuF/1404498023369-0.83828284451738/tmp.tgz
+34 http GET https://registry.npmjs.org/nodebot-workshop/-/nodebot-workshop-2.2.0.tgz
+35 http 200 https://registry.npmjs.org/nodebot-workshop/-/nodebot-workshop-2.2.0.tgz
+36 verbose tar unpack /var/folders/tp/hc7l361x5xzdbk2fcgfsxspm0000gn/T/npm-4689-n9FRxiuF/1404498023369-0.83828284451738/tmp.tgz
+37 silly lockFile 39444adc-m-nodebot-workshop-2-2-0-package tar:///Users/richard/.npm/nodebot-workshop/2.2.0/package
+38 verbose lock tar:///Users/richard/.npm/nodebot-workshop/2.2.0/package /Users/richard/.npm/39444adc-m-nodebot-workshop-2-2-0-package.lock
+39 silly lockFile 409eff75-8023369-0-83828284451738-tmp-tgz tar:///var/folders/tp/hc7l361x5xzdbk2fcgfsxspm0000gn/T/npm-4689-n9FRxiuF/1404498023369-0.83828284451738/tmp.tgz
+40 verbose lock tar:///var/folders/tp/hc7l361x5xzdbk2fcgfsxspm0000gn/T/npm-4689-n9FRxiuF/1404498023369-0.83828284451738/tmp.tgz /Users/richard/.npm/409eff75-8023369-0-83828284451738-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry gulpfile.js
+46 silly gunzTarPerm extractEntry nodebot-workshop.js
+47 silly gunzTarPerm extractEntry exercises/blink_blink/exercise.js
+48 silly gunzTarPerm extractEntry exercises/blink_blink/problem.md
+49 silly gunzTarPerm extractEntry exercises/blink_blink/solution/solution.js
+50 silly gunzTarPerm extractEntry exercises/fire_alarm/exercise.js
+51 silly gunzTarPerm extractEntry exercises/fire_alarm/problem.md
+52 silly gunzTarPerm extractEntry exercises/fire_alarm/solution/solution.js
+53 silly gunzTarPerm extractEntry exercises/light_switch/exercise.js
+54 silly gunzTarPerm extractEntry exercises/light_switch/problem.md
+55 silly gunzTarPerm extractEntry exercises/light_switch/solution/solution.js
+56 silly gunzTarPerm extractEntry exercises/menu.json
+57 silly gunzTarPerm extractEntry exercises/ping_bell/exercise.js
+58 silly gunzTarPerm extractEntry exercises/ping_bell/problem.md
+59 silly gunzTarPerm extractEntry exercises/ping_bell/solution/solution.js
+60 silly gunzTarPerm extractEntry exercises/remote_temperature/exercise.js
+61 silly gunzTarPerm extractEntry exercises/remote_temperature/problem.md
+62 silly gunzTarPerm extractEntry exercises/remote_temperature/solution/solution.js
+63 silly gunzTarPerm extractEntry exercises/robot_arm/exercise.js
+64 silly gunzTarPerm extractEntry exercises/robot_arm/problem.md
+65 silly gunzTarPerm extractEntry exercises/robot_arm/solution/solution.js
+66 silly gunzTarPerm extractEntry exercises/servo_wave/exercise.js
+67 silly gunzTarPerm extractEntry exercises/servo_wave/problem.md
+68 silly gunzTarPerm extractEntry exercises/servo_wave/solution/solution.js
+69 silly gunzTarPerm extractEntry exercises/spin_motor_spin/exercise.js
+70 silly gunzTarPerm extractEntry exercises/spin_motor_spin/problem.md
+71 silly gunzTarPerm extractEntry exercises/spin_motor_spin/solution/solution.js
+72 silly gunzTarPerm extractEntry exercises/street_lamp/exercise.js
+73 silly gunzTarPerm extractEntry exercises/street_lamp/problem.md
+74 silly gunzTarPerm extractEntry exercises/street_lamp/solution/solution.js
+75 silly gunzTarPerm extractEntry .travis.yml
+76 silly gunzTarPerm extractEntry help.txt
+77 silly gunzTarPerm extractEntry .jshintrc
+78 silly gunzTarPerm extractEntry stubs/five.js
+79 silly gunzTarPerm extractEntry stubs/io-stub.js
+80 silly gunzTarPerm extractEntry stubs/serialport-stub.js
+81 silly gunzTarPerm extractEntry tests/verify-solutions.js
+82 silly gunzTarPerm extractEntry assets/nodebots.png
+83 silly gunzTarPerm extractEntry assets/happy_robot0.jpg
+84 silly gunzTarPerm extractEntry assets/happy_robot2.jpg
+85 silly gunzTarPerm extractEntry assets/happy_robot3.jpg
+86 silly gunzTarPerm extractEntry assets/happy_robot4.jpg
+87 silly gunzTarPerm extractEntry assets/happy_robot5.jpg
+88 silly gunzTarPerm extractEntry assets/happy_robot1.jpg
+89 silly gunzTarPerm extractEntry assets/sad_robot0.jpg
+90 silly gunzTarPerm extractEntry assets/sad_robot1.jpg
+91 silly gunzTarPerm extractEntry assets/sad_robot2.jpg
+92 silly gunzTarPerm extractEntry assets/sad_robot3.jpg
+93 silly gunzTarPerm extractEntry assets/sad_robot4.jpg
+94 silly gunzTarPerm extractEntry assets/sad_robot5.jpg
+95 silly gunzTarPerm extractEntry schematics/fzz/01_blinkBlink.fzz
+96 silly gunzTarPerm extractEntry schematics/fzz/02_servoWave.fzz
+97 silly gunzTarPerm extractEntry schematics/fzz/03_spinMotorSpin.fzz
+98 silly gunzTarPerm extractEntry schematics/png/01_blinkBlink.png
+99 silly gunzTarPerm extractEntry schematics/png/02_servoWave.png
+100 silly gunzTarPerm extractEntry schematics/png/03_spinMotorSpin.png
+101 silly gunzTarPerm extractEntry screenshot.png
+102 silly gunzTarPerm extractEntry lib/broadcaster.js
+103 silly gunzTarPerm extractEntry lib/notifier.js
+104 silly lockFile 39444adc-m-nodebot-workshop-2-2-0-package tar:///Users/richard/.npm/nodebot-workshop/2.2.0/package
+105 silly lockFile 39444adc-m-nodebot-workshop-2-2-0-package tar:///Users/richard/.npm/nodebot-workshop/2.2.0/package
+106 silly lockFile 409eff75-8023369-0-83828284451738-tmp-tgz tar:///var/folders/tp/hc7l361x5xzdbk2fcgfsxspm0000gn/T/npm-4689-n9FRxiuF/1404498023369-0.83828284451738/tmp.tgz
+107 silly lockFile 409eff75-8023369-0-83828284451738-tmp-tgz tar:///var/folders/tp/hc7l361x5xzdbk2fcgfsxspm0000gn/T/npm-4689-n9FRxiuF/1404498023369-0.83828284451738/tmp.tgz
+108 silly lockFile 097e870e-kshop-nodebot-workshop-2-2-0-tgz https://registry.npmjs.org/nodebot-workshop/-/nodebot-workshop-2.2.0.tgz
+109 silly lockFile 097e870e-kshop-nodebot-workshop-2-2-0-tgz https://registry.npmjs.org/nodebot-workshop/-/nodebot-workshop-2.2.0.tgz
+110 silly lockFile 5f6dc853-nodebot-workshop-2-2-0 nodebot-workshop@2.2.0
+111 silly lockFile 5f6dc853-nodebot-workshop-2-2-0 nodebot-workshop@2.2.0
+112 silly lockFile d1d656a7-nodebot-workshop nodebot-workshop@
+113 silly lockFile d1d656a7-nodebot-workshop nodebot-workshop@
+114 silly resolved [ { name: 'nodebot-workshop',
+114 silly resolved     version: '2.2.0',
+114 silly resolved     description: 'A nodeschool workshop on getting your ardunio alive with johnny-five',
+114 silly resolved     main: 'nodebot-workshop.js',
+114 silly resolved     scripts: { start: './nodebot-workshop.js', test: 'gulp' },
+114 silly resolved     bin: { 'nodebot-workshop': './nodebot-workshop.js' },
+114 silly resolved     repository:
+114 silly resolved      { type: 'git',
+114 silly resolved        url: 'https://github.com/tableflip/nodebot-workshop' },
+114 silly resolved     keywords:
+114 silly resolved      [ 'nodeschool',
+114 silly resolved        'johnny-five',
+114 silly resolved        'nodebot',
+114 silly resolved        'arduino',
+114 silly resolved        'workshop',
+114 silly resolved        'workshopper',
+114 silly resolved        'life is not a malfuction' ],
+114 silly resolved     contributors: [ [Object], [Object], [Object] ],
+114 silly resolved     license: 'BSD-2-Clause',
+114 silly resolved     bugs: { url: 'https://github.com/tableflip/nodebot-workshop/issues' },
+114 silly resolved     dependencies:
+114 silly resolved      { async: '^0.9.0',
+114 silly resolved        chai: '^1.9',
+114 silly resolved        dnode: '^1.2.0',
+114 silly resolved        ioboard: '^3.0',
+114 silly resolved        'johnny-five': '^0.7.39',
+114 silly resolved        proxyquire: '^1.0.0',
+114 silly resolved        sinon: '^1.9',
+114 silly resolved        workshopper: '^1.2.2',
+114 silly resolved        'workshopper-exercise': '^1.1.0',
+114 silly resolved        'workshopper-wrappedexec': '~0.1.1',
+114 silly resolved        'node-notifier': '^3.0' },
+114 silly resolved     optionalDependencies: { 'node-notifier': '^3.0' },
+114 silly resolved     devDependencies:
+114 silly resolved      { 'gulp-jshint': '^1.6.1',
+114 silly resolved        gulp: '^3.6.2',
+114 silly resolved        'jshint-stylish': '^0.2.0',
+114 silly resolved        'gulp-shell': '^0.2.5' },
+114 silly resolved     readme: 'Nodebot Workshop [![Build Status](https://travis-ci.org/tableflip/nodebot-workshop.svg?branch=master)](https://travis-ci.org/tableflip/nodebot-workshop) [![Dependency Status](https://david-dm.org/tableflip/nodebot-workshop.svg)](https://david-dm.org/tableflip/nodebot-workshop)\n================\n\n**A [nodeschool][1] workshop on how to get your Arduino alive with [rwaldron/johnny-five][2]**\n\n```shell\n# Install\nnpm install -g nodebot-workshop\n# Run\nnodebot-workshop\n```\n\n![Nodebot workshop menu](https://raw.githubusercontent.com/tableflip/nodebot-workshop/master/screenshot.png)\n\nLearn the basics of the [johnny-five][2] api, as a series of code challenges.\n\n[johnny-five][2] is an api for working with Arduino and other rapid prototyping boards.\n\n**You _don\'t_ need an Arduino for this workshop.**\n\nThe workshop will pose a challenge, and will test your code.\n\nThe low level code to talk to the Arduino is stubbed out.\n\n**You _will_ be writing working, executable johnny-five code.**\n\nEach of your solutions can be run directly as a `node` program.\n\nWire up an Arduino, connect the USB and you can see your solution run for real.\n\n## Code style\n\nTo move towards a consistent style for nodeschool projects we use the .jshintrc\nas defined in learnyounode: https://github.com/rvagg/learnyounode/blob/master/.jshintrc\n\nYour favourite jshint runner will work but a gulpfile is provided for hipsters.\n\n```shell\nnpm install -g gulp\ngulp\n```\n\n...to run it.\n\n## Thanks\n\n- @rvagg - and the [nodeschool.io][1] team. This workshopper is based on the new 1.0 release of [rvagg/learnyounode](https://github.com/rvagg/learnyounode). It\'s ace, go try it https://github.com/rvagg/learnyounode\n- @rwaldron and the [johnny-five team](https://github.com/rwaldron/johnny-five/graphs/contributors)\n- @voodootikigod and the [nodebots team](http://nodebots.io/core.html)\n- @AnnaGerber of [node-ardx.org](http://node-ardx.org/)\n\n[1]: http://nodeschool.io/\n[2]: https://github.com/rwaldron/johnny-five\n\nBrought to you by [@NodeBotsUK](https://twitter.com/NodeBotsUK)\n\n<img src="http://nodebots.io/img/nodebot.png" width="175">\n',
+114 silly resolved     readmeFilename: 'README.md',
+114 silly resolved     homepage: 'https://github.com/tableflip/nodebot-workshop',
+114 silly resolved     _id: 'nodebot-workshop@2.2.0',
+114 silly resolved     _shasum: '13663204196403cf5ea133969502561a6fd23ee7',
+114 silly resolved     _from: 'nodebot-workshop@',
+114 silly resolved     _resolved: 'https://registry.npmjs.org/nodebot-workshop/-/nodebot-workshop-2.2.0.tgz' } ]
+115 info install nodebot-workshop@2.2.0 into /usr/local/lib
+116 info installOne nodebot-workshop@2.2.0
+117 info /usr/local/lib/node_modules/nodebot-workshop unbuild
+118 verbose tar unpack /Users/richard/.npm/nodebot-workshop/2.2.0/package.tgz
+119 silly lockFile d1390208-ib-node-modules-nodebot-workshop tar:///usr/local/lib/node_modules/nodebot-workshop
+120 verbose lock tar:///usr/local/lib/node_modules/nodebot-workshop /Users/richard/.npm/d1390208-ib-node-modules-nodebot-workshop.lock
+121 silly lockFile d34ef933-debot-workshop-2-2-0-package-tgz tar:///Users/richard/.npm/nodebot-workshop/2.2.0/package.tgz
+122 verbose lock tar:///Users/richard/.npm/nodebot-workshop/2.2.0/package.tgz /Users/richard/.npm/d34ef933-debot-workshop-2-2-0-package-tgz.lock
+123 silly gunzTarPerm modes [ '755', '644' ]
+124 error Error: EACCES, mkdir '/usr/local/lib/node_modules/nodebot-workshop'
+124 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/nodebot-workshop']
+124 error   errno: 3,
+124 error   code: 'EACCES',
+124 error   path: '/usr/local/lib/node_modules/nodebot-workshop',
+124 error   fstream_type: 'Directory',
+124 error   fstream_path: '/usr/local/lib/node_modules/nodebot-workshop',
+124 error   fstream_class: 'DirWriter',
+124 error   fstream_stack:
+124 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+124 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+124 error      'Object.oncomplete (fs.js:107:15)' ] }
+125 error Please try running this command again as root/Administrator.
+126 error System Darwin 13.2.0
+127 error command "node" "/usr/local/bin/npm" "i" "-g" "nodebot-workshop"
+128 error cwd /Users/richard/Github/NodeConf/Nodebots
+129 error node -v v0.10.28
+130 error npm -v 1.4.9
+131 error path /usr/local/lib/node_modules/nodebot-workshop
+132 error fstream_path /usr/local/lib/node_modules/nodebot-workshop
+133 error fstream_type Directory
+134 error fstream_class DirWriter
+135 error code EACCES
+136 error errno 3
+137 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/nodebot-workshop'
+138 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+138 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+138 error fstream_stack Object.oncomplete (fs.js:107:15)
+139 verbose exit [ 3, true ]
